@@ -67,3 +67,23 @@
 ![image](https://static001.geekbang.org/resource/image/41/62/4153891927afac7f4c21ccf6a141f062.png)
 
 winter老师把html分为元素和语言以及补充标准。
+其中元素是html中重要的内容。`HTML`中标签分为很多种，例如`head`内的元信息类标签、`nav/footer`语义标签、`img/video`引入外部内容的标签、以及表单标签`input/button`这些。
+**HTML标签分类：**
+1. *文档元信息*：通常出现在head标签内部，包含了描述文档自身的一些信息；
+2. *语义相关*：扩展了纯文本，表达文章结构，让标签更加语义化；
+3. *链接*：提供文档内外链接；
+4. *表单*：填写和提交表单操作；
+5. *表格*：表头、表尾、单元格；
+
+**`CSS`**从语言和功能划分，语言就是CSS的各种语法结构（例如标签选择器，单位等）。**功能分为布局、绘制和交互。**
+
+感觉winter对这类的划分非常好，CSS部分不就是一个从布局到绘制再到交互的过程吗？！感谢winter老师！
+
+#### 浏览器的实现原理和API
+![image](https://static001.geekbang.org/resource/image/cb/cb/cbb6d198ccfb95af4906eeb0581333cb.png)
+
+**浏览器的实现过程其实就是从解析-->构建DOM树-->计算CSS-->渲染、合成、绘制的一个流程。**
+
+最后。附上winter老师的总结图以及课程表，感兴趣的同学可以去看看。最好能亲自用笔画一下，整理一下前端基础部分的一个框架。
+![image](https://static001.geekbang.org/resource/image/d1/a8/d1cb4040d91207075e0591abffe1b9a8.jpg)
+
